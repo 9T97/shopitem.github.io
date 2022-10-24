@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Shop Item</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- Box icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- nav bar start -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo"> <i class='bx bx-cart-download'></i>GAME SHOP Item</a>
+            <!-- Open menu -->
+            <ul class="navbar">
+                <li><a href="#market" class="market">market</a></li>
+                <li><a href="#inventory" class="inventory">inventory</a></li>
+                <li><a href="#store" class="store">store</a></li>
+                <li><a href="#items" class="items">items</a></li>
+                <li>
+                    <select id="language" name="language" class="language">
+                        <option value="english">Us English</option>
+                        <option value="myanmar">Myanmar</option>
+                        <option value="japan">Japan</option>
+                        <option value="korea">Korea</option>
+                    </select>
+                </li>
+            </ul>
+            <!-- Close Menu -->
+        </div>
+        <!-- Sign in | Sign out -->
+        
+        <button type="button" class="btn"> Sign in | Sign up </button>
+        
+    </nav>
+    <!-- nav bar close  -->
+    <!-- Start cover photo -->
+    <section class="market-cover" id="market">
+        <div class="market-container">
+            <!-- image one -->
+            <div class="market-box card-one">
+                <div class="imgBx">
+                    <img src="./imgs/dota/lol1.jpg" alt="">
+                </div>
+                <div class="market-content">
+                    <div class="text-tx">
+                        <span>League of Legend</span>
+                        <h5>
+                            Buy <span> Item</span>
+                        </h5>
+                    </div>
+                    <div class="text-img">
+                        <img src="./imgs/dota/cheapest.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- image two -->
+            <div class="market-box card-two">
+                <div class="imgBx">
+                    <img src="./imgs/dota/d1.jpg" alt="">
+                </div>
+                <div class="market-content">
+                    <div class="text-tx">
+                        <span>      Dota 2</span>
+                        <h5>
+                            Buy <span> Item</span>
+                        </h5>
+                    </div>
+                    <div class="text-img">
+                        <img src="./imgs/dota/cheapest.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- image three -->
+            <div class="market-box card-three">
+                <div class="imgBx">
+                    <img src="./imgs/dota/es2.jpg" alt="">
+                </div>
+                <div class="market-content">
+                    <div class="text-tx">
+                        <span>The Elder Scrolls</span>
+                        <h5>
+                            Buy <span> Item</span>
+                        </h5>
+                    </div>
+                    <div class="text-img">
+                        <img src="./imgs/dota/cheapest.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- image four -->
+            <div class="market-box card-four">
+                <div class="imgBx">
+                    <img src="./imgs/dota/tf1.jpg" alt="">
+                </div>
+                <div class="market-content">
+                    <div class="text-tx">
+                        <span>Team Fortress 2</span>
+                        <h5>
+                            Buy <span> Item</span>
+                        </h5>
+                    </div>
+                    <div class="text-img">
+                        <img src="./imgs/dota/cheapest.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- End cover photo -->
+
+    <!-- Find Box Start -->
+    <div class="find-box">
+        <form action="">
+            <label for="fi"><i class='bx bx-search'></i></label>
+            <input type="text" placeholder=" Find your game or item " id="fi">
+        </form>
+    </div>
+    <!-- Find Box End -->
+    <div class="hid" id="inventory"></div>
+    <!-- Inventory Start -->
+
+    <section class="inventory">
+        <div class="heading">
+            <h3>Popular games</h3>
+            <button type="button" class="btn btn-all-games"> All games</button>
+        </div>
+        <!-- Game inventory image -->
+        <div class="inv-container">
+            <!-- Game one -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/d2.png" alt="logo">
+                        <h6>Dota 2</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game two -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/csgo1.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/csg.jpg" alt="logo">
+                        <h6>Counter-Strick :Global Offensive</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game three -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/wow.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/wow1.png" alt="logo">
+                        <h6>World of Warcraft</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game four -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/redFall.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/redFall.png" alt="logo">
+                        <h6>ReDFaLL</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game five -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/VRising.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/VRising.png" alt="logo">
+                        <h6>V Rising</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game Six -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/lol2.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/LoL.png" alt="logo">
+                        <h6>League of Legend</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game Seven -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/tf2.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/TF.jpg" alt="logo">
+                        <h6>Team Fortress 2</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game Eight -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/cyberpunk.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/2077.jpg" alt="logo">
+                        <h6>Cyberpunk 2077</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game Nine -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/es2.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/els.png" alt="logo">
+                        <h6>The Elder Scrolls</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Game Ten -->
+            <div class="box-game">
+                <div class="imgGame">
+                    <img src="./imgs/dota/frostpunk.jpg" alt="imgGame">
+                </div>
+                <div class="game-content">
+                    <div class="logo">
+                        <img src="./imgs/logo/Frostpunk.jpg" alt="logo">
+                        <h6>Frostpunk</h6>
+                    </div>
+                    <ul class="acc">
+                        <li><a href="#" class="hid">Accounts</a></li>
+                        <li><a href="#" class="hid">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventory End -->
+    <div class="hid" id="store"></div>
+    <!-- Store Start-->
+    <section class="store">
+        <div class="store-head">
+            <h3>Publisher stores</h3>
+        </div>
+        <div class="store-all-box">                                  <!-- store parent Box --> 
+            <div class="store-one">                                  <!-- store Child one Start-->
+                <!-- Colunm One -->
+                <div class="store-colunm-one">                       <!-- store Child One    In  store-colunm-one-->         
+                    <div class="store-box-one">
+                        <img src="./imgs/dota/m4.jpg" alt="">
+                        <div class="store-text">
+                            <h2>Stream official store</h2>
+                            <span>ggggg</span>
+                        </div>
+                    </div>
+                    <div class="store-box-two">
+                        <div class="store-game">
+                            <img src="./imgs/logo/d2.png" alt="">
+                            <span>Dota 2</span>
+                        </div>
+                        <div class="store-game">
+                            <img src="./imgs/logo/VRising.png" alt="">
+                            <span>V Rising</span>
+                        </div>
+                        <div class="store-game">
+                            <img src="./imgs/logo/redFall.png" alt="">
+                            <span>RedFall</span>
+                        </div>
+                        <div class="store-game">
+                            <img src="./imgs/logo/2077.jpg" alt="">
+                            <span>cyberpunk 2077</span>
+                        </div>
+                        <div class="store-game">
+                            <img src="./imgs/logo/Frostpunk.jpg" alt="">
+                            <span>Frostpunk</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-store-one">Visit Stream store</button>
+                </div>
+
+                <!-- Colunm Two -->
+                <div class="store-colunm-two">                      <!-- store Child One    In  store-colunm-two--> 
+                    <h4>Hot Steam offers</h4>
+                    <img src="./imgs/logo/Vlogo.png" alt="img">
+                    <h1>V Rising&reg;:<small>Survival Game</small></h1>
+                    <div class="store-box">
+                        <div class="store-box-text">
+                            <h5>developer</h5>
+                            <h5>publisher</h5>
+                            <h5>languages</h5>
+                            <h5>engine</h5>
+                            <h5>platform(s)</h5>
+                            <h5>genre</h5>
+                            <h5>mode(s)</h5>
+                        </div>
+                        <div class="store-box-tx">
+                            <h5>Stunlock Studios</h5>
+                            <h5>Stinlock Studios</h5>
+                            <h5>English,French, Spain</h5>
+                            <h5>Unity<sup>[citation needed]</sup></h5>
+                            <h5>Microsoft Windows</h5>
+                            <h5>Action,Survival</h5>
+                            <h5>Single-player,Multiplay</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>Price</h6>
+                        <div class="store-price">
+                            <div>
+                                <del>$57.97</del> $52.17 
+                            </div>
+                            <div>
+                                <h6><mark>-10%</mark></h6>
+                            </div>
+                        </div>    
+                    </div>   
+                    <button class="btn btn-store-two">Buy now</button>
+                    <button class="btn btn-store-three">Read more</button>    
+                </div>
+            </div>                                                <!-- Store Child One End-->
+
+            <div class="store-two">                               <!-- Store Child two Start-->
+                <!-- Game one -->
+                <div class="store-two-game">
+                    <div class="store-img">
+                        <img src="./imgs/logo/Blizzard-logo.png" alt="">
+                        <h5>Blizzard</h5>
+                    </div>
+                </div>
+                <!-- Game two -->
+                <div class="store-two-game">
+                    <div class="store-img">
+                        <img src="./imgs/logo/ea-sport.png" alt="">
+                        <h5>EA Sport</h5>
+                    </div>
+                </div>
+                <!-- Game three -->
+                <div class="store-two-game">
+                    <div class="store-img">
+                        <img src="./imgs/logo/Valve-logo.png" alt="">
+                        <h5>Valve</h5>
+                    </div>
+                </div>
+                <!-- Game four -->
+                <div class="store-two-game">
+                    <div class="store-img">
+                        <img src="./imgs/logo/riot-logo.png" alt="">
+                        <h5>Riot</h5>
+                    </div>
+                </div>
+                <!-- Game five -->
+                <div class="store-two-game">
+                    <div class="store-img">
+                        <img src="./imgs/logo/Ubisoft-Logo.png" alt="">
+                        <h5>Ubisoft</h5>
+                    </div>
+                </div>
+            </div>                                              <!-- Store Child two End-->
+            <div class="store-three">                           <!-- Store Child thtee Start-->
+                <button class="btn btn-see-all">See all publisher stores</button>
+            </div>                                              <!-- Store Child three End-->
+        </div>
+    </section>
+    <!-- Store End -->
+
+    <div class="hid-two"></div>
+
+    <div class="store-three">                           
+        <a href="./galaxyPhoto.html " class="photo">Click -> Go To My Game Galaxy Photo</a>
+    </div>
+    <div class="hid-two"></div>
+
+    <!-- Items Start -->
+
+    <section class="items" id="items">
+        <div class="store-head">
+            <h3>Hot deals on market today</h3>
+        </div>
+        <!-- Game item  -->
+        <div class="item-container">
+            <!-- Game one -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Ripper's Reel</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/riper-reel.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 7.33</span><mark>-5%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>    
+                <button class="btn btn-item">Buy now</button>    
+            </div>
+            <!-- Game two -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>The Basher Blades</h5>
+                    <h6>Left hand</h6>
+                    <img src="./photo/basher-left.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 105</span><mark>-10%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>                   
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game three -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>The Basher Blades</h5>
+                    <h6>Right hand</h6>
+                    <img src="./photo/basher-right.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 105</span><mark>-10%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>                    
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game four -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/earthshaker.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>                    
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game five -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/jade-reckoning-earth-spirit.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>                    
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game Six -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/sven-vigil-triumph.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game Seven -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/tinker-head.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game Eight -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/tinker-removebg.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game Nine -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/sl-removebg-preview.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>
+                <button class="btn btn-item">Buy now</button>
+            </div>
+            <!-- Game Ten -->
+            <div class="box-item">
+                <div class="item-bg-img">
+                    <img src="./imgs/dota/d3.jpg" alt="imgGame">
+                </div>
+                <div class="item-box-image">
+                    <h5>Fel-Burning Blade</h5>
+                    <h6>2 hand sword</h6>
+                    <img src="./photo/f-v.png" alt="logo">    
+                </div>
+                <div class="item-box-text">
+                    <div>
+                        <span>$ 1.5</span><mark>-36%</mark>
+                    </div> 
+                    <img src="./imgs/logo/d2.png" alt="logo"> 
+                </div>
+                <button class="btn btn-item">Buy now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Items End -->
+    <div class="hid"></div>
+    <!-- Footer start -->
+    <section class="footer">
+        <div class="test">
+            <span>Fag</span>
+            <span>Help</span>
+        </div>
+        <div class="media">
+            <div class="media-logo">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+            </div>
+            <div class="media-logo">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <div class="media-logo">
+                <a href="#"><i class='bx bxl-gmail'></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
